@@ -1,0 +1,41 @@
+.shadow{
+    text-align: center;
+    text-shadow: 5px 3px 2px greenyellow;
+    color: green;
+
+}
+p{
+    width: 800px;
+    padding: 10px;
+
+}
+h3{
+    color: green;
+
+}
+body{
+    background-image: url("./assets/eco.jpg");
+    background-size: cover;
+}
+.form{
+    color:darkorange;
+    text-align: left;
+}
+.animate{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    background-image: url("./assets/round.jpg");
+    margin: auto;
+    padding: 20px;
+    animation-name: animation;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes animation{
+    from{background-image:url("./assets/round.jpg") url("./assets/square.jpg"), url("./assets/rectangle.jpg");}
+     to{background-image: url("./assets/bowls.jpg");}
+    
+}
